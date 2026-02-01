@@ -10,4 +10,7 @@
 9. top : display running process.CPU usage,Memory usage,Load average.
 
 # File Management: 
-1. touch : Create new file
+1. touch : Create new file.
+2. touch -t : change timestamp of file.
+3. rm : remove file.
+4. 
