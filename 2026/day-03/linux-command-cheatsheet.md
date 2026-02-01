@@ -7,4 +7,7 @@
 6. ps -U root -u root u : Show processes owned by user root.Display in user-oriented format (nice, detailed layout).
 7. ps -eo euser,ruser,suser,fuser,f,comm,label : see every process with a user defined format.Custom output format (you choose columns).
 8. ps axo stat,euid,ruid,tty,tpgid,sess,pgrp,ppid,pid,pcpu,comm : (a = Show processes from all users) (x = Show processes without a terminal (background/system)) (o = Custom output format)
-9. top
+9. top : display running process.CPU usage,Memory usage,Load average.
+
+# File Management: 
+1. touch : Create new file
