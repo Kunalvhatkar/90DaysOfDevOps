@@ -21,3 +21,10 @@
 8. head : use display first 10 lines in file by default display first 10 lines. user can customize line number ex: head -5 file.txt.
 9. tail :  display last 10 lines of file. user can customize line number ex: tail -6 file.txt.
 
+# Network Troubleshooting command:
+1. ip addr : shows ip address and network interfaces.
+2. ping : check server reachable.
+3. traceroute : shows each hope(router) packet passes through to reach destination.
+4. dig : shows information about dns.
+5. iftop : shows realtime bandwidth usage.
+
