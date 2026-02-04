@@ -58,7 +58,6 @@
 6. access log files of nginx service.
 7. change ownership of file using chown command.
 8. copying file and directory remote to local system using scp command. 
-9. 
 
 
 
