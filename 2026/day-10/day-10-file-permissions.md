@@ -33,7 +33,11 @@
 4. mkdir -m 755 project create a directory with permission. Specify permission explicitly upon creation of directory <img width="1008" height="346" alt="image" src="https://github.com/user-attachments/assets/eb419dfa-70d3-499d-a4cc-8c96e0f6e00d" />
 
 ## 🚀 What I learned
-1. Permissions of file based on user like owner, Group, Other.
-2. how to set a permissions of files.
-3. I try write a contain in file but file have read only permission  <img width="1038" height="656" alt="image" src="https://github.com/user-attachments/assets/c5644a11-b47f-4f0a-9611-8bf7866ab88e" />
+1. Understood how file permissions work in Linux (Owner, Group, and Others).
+2. Learned how to set and modify file permissions using commands like `chmod` and `chown`.
+3. Experienced permission-related errors (e.g., trying to write to a read-only file) and learned how to troubleshoot and resolve them.  <img width="1038" height="656" alt="image" src="https://github.com/user-attachments/assets/c5644a11-b47f-4f0a-9611-8bf7866ab88e" />
+4. Learned how to make a shell script executable by assigning execution permissions using `chmod +x`.
+   <img width="955" height="276" alt="image" src="https://github.com/user-attachments/assets/70f34f00-22f0-4d9e-b2de-a0442da5f86f" />
+
+
 
