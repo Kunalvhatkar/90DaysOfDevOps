@@ -78,5 +78,8 @@
    <img width="964" height="108" alt="image" src="https://github.com/user-attachments/assets/2d7f3ce1-51b2-4fd0-bf10-6fcee7b71b99" />
 
 
-
+  # Learning Point: 
+   1. creating backup of files
+   2. Compress file and deleted old files
+   3. Create a cron job.
 
