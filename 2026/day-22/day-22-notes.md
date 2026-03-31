@@ -1,12 +1,16 @@
-<img width="1051" height="201" alt="image" src="https://github.com/user-attachments/assets/b124ac1b-8203-47a1-9ef4-1ae504f32f47" /># Day 22 – Introduction to Git: Your First Repository
+# Day 22 – Introduction to Git: Your First Repository
 
 ## Task 1: Install and Configure Git
 
-1.	Verify Git is installed on your machine  <img width="669" height="119" alt="image" src="https://github.com/user-attachments/assets/8fe78678-b970-4401-9313-b3d9088f714c" />
+1.	Verify Git is installed on your machine
 
-2.	Set up your Git identity — name and email     <img width="1048" height="100" alt="image" src="https://github.com/user-attachments/assets/66d31e4a-feb6-43e9-b14c-11bd16d4f75c" />
+  	<img width="669" height="119" alt="image" src="https://github.com/user-attachments/assets/8fe78678-b970-4401-9313-b3d9088f714c" />
 
-3.	Verify your configuration
+3.	Set up your Git identity — name and email
+
+   <img width="1048" height="100" alt="image" src="https://github.com/user-attachments/assets/66d31e4a-feb6-43e9-b14c-11bd16d4f75c" />
+
+6.	Verify your configuration
 
    <img width="744" height="104" alt="image" src="https://github.com/user-attachments/assets/e6494139-fd04-4fb4-94e2-bdd947ab5107" />
 
@@ -65,14 +69,14 @@
 
 5.	View the full history in a compact format    <img width="1051" height="201" alt="image" src="https://github.com/user-attachments/assets/622d8600-b3ef-44ef-b484-ced23d73a990" />
 
-Task 6: Understand the Git Workflow
-Answer these questions in your own words (add them to a day-22-notes.md file):
-1.	What is the difference between git add and git commit?   
+## Task 6: Understand the Git Workflow
+
+### 1.	What is the difference between git add and git commit?   
 Answer:    
 i.	The git add command moves new or modified files from your working directory to the staging area (also known as the index).   
 ii.	The git commit command takes all the changes currently in the staging area and records them as a permanent snapshot in the local Git repository's database.  
 
-2.	What does the staging area do? Why doesn't Git just commit directly?   
+### 2.	What does the staging area do? Why doesn't Git just commit directly?   
 Answer:   
 i.	The Git staging area (also called the "index") is a temporary draft space where you prepare and review changes before permanently saving them to your project's history.  
 ii.	Git doesn’t commit directly because developers need control over what gets committed. The staging area allows us to separate, organize, and verify changes before saving them permanently.  
@@ -81,7 +85,7 @@ iii.	If Git committed directly:
 --> Commit history would become messy   
 --> It would be harder to track, debug, and review code  
 
-3.	What information does git log show you?  
+### 3.	What information does git log show you?  
 Answer: git log shows the history of commits in a Git repository. It helps you understand what   changes were made, who made them, and when.  
 Information shown by git log:   
 i.	Commit Hash :   
@@ -92,17 +96,17 @@ ii.	Author:  Name and email of the person who made the commit
 iii.	Date: When the commit was created 
 iv.	Commit Message: Description of the changes
 
-4.	What is the .git/ folder and what happens if you delete it?
+### 4.	What is the .git/ folder and what happens if you delete it?
 Answer: The .git/ folder is the hidden directory where Git stores all the information about your repository.
 It stores all version control data:
 i.	Commits (History): All past commits. Complete project history
 ii.	Branches: Information about all branches. Current branch pointer
 iii.	Tags: Saved versions/releases
 iv.	Configuration: Repository settings (config file)
-v.	Objects (Important!): Actual data of files and commits Stored in .git/objects
+v.	   Objects (Important!): Actual data of files and commits Stored in .git/objects
 vi.	HEAD Pointer: Points to the current branch
 
-5.	What is the difference between a working directory, staging area, and repository?  
+### 5.	What is the difference between a working directory, staging area, and repository?  
 Answer:   
 Working Directory:   
 The working directory is the folder on your system where your project files exist and where you write and edit code.   
